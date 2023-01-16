@@ -2,6 +2,7 @@ import "./App.css";
 import ExampleOne from "./components/ExampleOne";
 import ExampleTwo from "./components/ExampleTwo";
 import ExampleThree from "./components/ExampleThree";
+import ExampleFour from "./components/ExampleFour";
 
 function App() {
 
@@ -19,7 +20,10 @@ function App() {
       {/* <ExampleTwo /> */}
 
       {/* Axios Example w/ async/await syntax */}
-      <ExampleThree />
+      {/* <ExampleThree /> */}
+
+      {/* Component that uses custom React useFetch hook */}
+      <ExampleFour />
 
     </div>
   );
