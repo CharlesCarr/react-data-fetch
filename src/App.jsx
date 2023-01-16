@@ -1,5 +1,6 @@
 import "./App.css";
 import ExampleOne from "./components/ExampleOne";
+import ExampleTwo from "./components/ExampleTwo";
 
 function App() {
 
@@ -11,7 +12,10 @@ function App() {
       <h2>Example API: Random Dog Image</h2>
 
       {/* Fetch API w/ .then() syntax */}
-      <ExampleOne />
+      {/* <ExampleOne /> */}
+
+      {/* Axios Example */}
+      <ExampleTwo />
 
     </div>
   );
