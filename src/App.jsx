@@ -1,6 +1,7 @@
 import "./App.css";
 import ExampleOne from "./components/ExampleOne";
 import ExampleTwo from "./components/ExampleTwo";
+import ExampleThree from "./components/ExampleThree";
 
 function App() {
 
@@ -14,8 +15,11 @@ function App() {
       {/* Fetch API w/ .then() syntax */}
       {/* <ExampleOne /> */}
 
-      {/* Axios Example */}
-      <ExampleTwo />
+      {/* Axios Example w/ .then() syntax */}
+      {/* <ExampleTwo /> */}
+
+      {/* Axios Example w/ async/await syntax */}
+      <ExampleThree />
 
     </div>
   );
