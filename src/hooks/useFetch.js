@@ -14,7 +14,7 @@ const useFetch = (url) => {
       //   with async/await use the try catch block syntax for handling
       try {
         // using await to make async code look sync and shorten
-        const res = await axios(url);
+        const res = await axios.get(url);
         setData(res.data);
       } catch (err) {
         console.error(`Error: ${err}`);

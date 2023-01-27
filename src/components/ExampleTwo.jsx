@@ -9,7 +9,7 @@ const ExampleTwo = () => {
   const URL = "https://random.dog/woof.json";
 
   useEffect(() => {
-    axios(URL)
+    axios.get(URL)
       // syntax for handling promises
       .then((res) => {
         console.log(res.data);

@@ -9,12 +9,12 @@ const ExampleThree = () => {
   const URL = "https://random.dog/woof.json";
 
   useEffect(() => {
-    // create async function b/c cannot use asyc in useEffect arg cb
+    // create async function b/c cannot use async in useEffect arg cb
     const fetchData = async () => {
     //   with async/await use the try catch block syntax for handling
       try {
         // using await to make async code look sync and shorten 
-        const res = await axios(URL);
+        const res = await axios.get(URL);
         setData(res.data);
       } catch (err) {
         console.error(`Error: ${err}`);

@@ -8,13 +8,11 @@ import ExampleSix from "./components/ExampleSix";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 /*
-
   HOW TO NAVIGATE:
   - Review each 'Example...' component in components directory
   - Then uncomment each individually in App.jsx for review while running locally
 
   (*Note* - Sometimes this API provides url paths that no longer exist - if this happens refresh page)
-
 */
 
 function App() {
@@ -46,7 +44,6 @@ function App() {
 
         {/* Component that uses React Redux RTK Query library */}
         {/* <ExampleSix /> */}
-
       </div>
     </QueryClientProvider>
   );

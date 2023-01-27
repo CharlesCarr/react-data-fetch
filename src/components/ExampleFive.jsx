@@ -3,7 +3,7 @@ import { useQuery } from "react-query";
 const ExampleFive = () => {
   const URL = "https://random.dog/woof.json";
 
-  const { isLoading, error, data } = useQuery("repoData", () => fetch(URL).then((res) => res.json()));
+  const { isLoading, error, data } = useQuery("dogData", () => fetch(URL).then((res) => res.json()));
 
   if (isLoading) return "Loading...";
 
